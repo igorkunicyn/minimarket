@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Каталог товаров</title>
+
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/dist/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.1.3/js/bootstrap.min.js}"></script>
+    <!--    <script type="text/javascript" th:src="@{/js/min.js}"></script>-->
+    <link type="text/css" rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.3/css/bootstrap.min.css}"/>
+    <!--    <link type="text/css" rel="stylesheet" th:href="@{/css/main.css}"/>-->
+
+    <script type="text/javascript" th:src="@{/webjars/sockjs-client/1.0.2/sockjs.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/stomp-websocket/2.3.3/stomp.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/script.js}"></script>
+</head>
+<body>
+
+<div th:replace="~{navigation :: navi(Product)}"/>
+
+<div align="center">
+    <h1>Каталог товаров</h1>
+    <div sec:authorize="hasRole('ADMIN')">
+        <!--        <a href="/product/new">Добавить новый товар</a>-->
+        <a th:href="@{'/product/list/' + ${id} + '/new'}">Добавить новый товар</a>
+
+    </div>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead class="thead-dark">
+        <tr>
+            <div sec:authorize="hasRole('ADMIN')">
+                <th>ID</th>
+            </div>
+            <th>Фото товара</th>
+            <th>Название товара</th>
+            <th>Цена товара за 1 кг</th>
+            <th>Корзина</th>
+            <div sec:authorize="hasRole('ADMIN')">
+                <th>Английское название товара</th>
+                <th>Действия с товаром</th>
+            </div>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${listProducts}">
+            <div sec:authorize="hasRole('ADMIN')">
+                <td th:text="${product.id}">ID товара</td>
+            </div>
+            <td>
+                <img th:src="@{'/pictures/' + ${product.titleEnglish} + '/' + ${product.titleEnglish} + '.jpg'}"
+                     width="100" height="50">
+
+                <!--                <img th:src="@{'/images/' + ${product.titleEnglish} + '/' + ${product.titleEnglish} + '.jpg'}" width="100" height="50">-->
+
+            </td>
+
+            <td th:text="${product.titleRussian}">Название товара</td>
+            <td th:text="${product.price}">Цена товара</td>
+            <td>
+                &nbsp;&nbsp;&nbsp; <a th:href="@{'/cart/add/' + ${product.id}}" class="btn btn-primary" onclick="sendNumber();">Добавить товар в корзину</a>
+<!--                <button id="connect" onclick="connect();" >Добавить товар в корзину</button>-->
+
+            </td>
+            <div sec:authorize="hasRole('ADMIN')">
+                <td th:text="${product.titleEnglish}">Английское название товара</td>
+                <td>
+                    <a th:href="@{'/product/list/' + ${id} + '/edit/' + ${product.id}}">Изменить</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a th:href="@{'/product/list/' + ${id} + '/delete/' + ${product.id}}">Удалить</a>
+                </td>
+            </div>
+        </tr>
+        </tbody>
+    </table>
+    <div>
+        Всего товаров: [[${totalItems}]] &nbsp; &nbsp;Всего страниц: [[${totalPages}]] &nbsp; &nbsp;
+        <!--        <a th:if="${currentPage > 1}" th:href="@{'/product/page/1'}">Первая</a>-->
+        <a th:if="${currentPage > 1}" th:href="@{'/product/list/' + ${id} +'/page/1'}">Первая</a>
+        <span th:unless="${currentPage > 1}">Первая</span>
+        <!--        <a th:if="${currentPage > 1}" th:href="@{'/product/page/' + ${currentPage - 1}}">Предыдущая</a>-->
+        <a th:if="${currentPage > 1}"
+           th:href="@{'/product/list/' + ${id} + '/page/' + ${currentPage - 1}}">Предыдущая</a>
+        <span th:unless="${currentPage > 1}">Предыдущая</span>
+        <span th:each="i : ${#numbers.sequence(1, totalPages)}">
+<!--        <a th:if="${currentPage != i}" th:href="@{'/product/page/' + ${i}}">[[${i}]]</a>-->
+        <a th:if="${currentPage != i}" th:href="@{'/product/list/' + ${id} + '/page/' + ${i}}">[[${i}]]</a>
+        <span th:unless="${currentPage != i}">[[${i}]]</span>
+        &nbsp;
+    </span>
+        <!--        <a th:if="${currentPage < totalPages}" th:href="@{'/product/page/' + ${currentPage + 1}}">Следующая</a>-->
+        <a th:if="${currentPage < totalPages}" th:href="@{'/product/list/' + ${id} + '/page/' + ${currentPage + 1}}">Следующая</a>
+        <span th:unless="currentPage < totalPages">Следующая</span>
+        <a th:if="${currentPage < totalPages}" th:href="@{'/product/list/' + ${id} + '/page/' + ${totalPages}}">Последняя</a>
+        <!--        <a th:if="${currentPage < totalPages}" th:href="@{'/product/page/' + ${totalPages}}">Последняя</a>-->
+        <span th:unless="${currentPage < totalPages}">Последняя</span>
+    </div>
+    <br></br>
+    <span>
+       <a th:href="@{'/cart'}">Посмотреть корзину</a>
+    </span>
+</div>
+</body>
+</html>

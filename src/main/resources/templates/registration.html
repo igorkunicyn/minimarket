@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/dist/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.1.3/js/bootstrap.min.js}"></script>
+    <link type="text/css" rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.3/css/bootstrap.min.css}"/>
+    <style type="text/css">
+    label {
+        display: inline-block;
+        width: 200px;
+        margin: 5px;
+        text-align: left;
+    }
+    input [type=text]{
+        display: inline-block;
+        width: 200px;
+    }
+
+    input [type=password]{
+        display: inline-block;
+        width: 200px;
+    }
+
+    button {
+        padding: 5px;
+        margin: 10px;
+    }
+</style>
+
+</head>
+
+<body>
+<div th:replace="~{navigation :: navi(Home)}"></div>
+
+<div align="center">
+        <h2>Регистрация</h2>
+        <form action="#" th:action="@{/registration}" method="post" th:object="${userForm}">
+
+            <label for="username">Имя пользователя:</label>
+            <input type="text" th:field="*{username}" id="username"/><br>
+            <div style="color:red" th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Usrename error </div>
+            <div style="color:red" th:if="${usernameError != null}">
+                <span>Пользователь с таким именем уже существует</span>
+                <br/>
+            </div>
+
+            <label for="password">Пароль:</label>
+            <input type="password" th:field="*{password}" id="password"/><br>
+            <div style="color:red" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password error </div>
+            <div style="color:red" th:if ="${passwordError != null}">
+                <span>Пароли не совпадают</span>
+                <br/>
+            </div>
+
+            <label>Повторите пароль:</label>
+            <input type="password" th:field="*{passwordConfirm}"/><br>
+            <div style="color:red" th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}">Password error </div>
+
+            <label for="email">Email:</label>
+            <input type="email" th:field="*{email}" id="email"/><br>
+            <div  style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error </div>
+
+
+             <button type="submit" class="btn btn-success" >Зарегистрироваться</button>
+
+
+        </form>
+</div>
+</body>
+</html>
+
+

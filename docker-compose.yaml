@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  ik-mysql:
+      image: mysql:latest
+      restart: always
+#      network_mode: "service:market"
+      environment:
+        - MYSQL_ROOT_PASSWORD=123456
+        - MYSQL_MY_DATABASE=spring
+        - MYSQL_PASSWORD=123456
+#      ports:
+#        - "3306"
+      volumes:
+        - ./myinit-sql:/docker-entrypoint-initdb.d
+  market:
+    build: .
+#     context: .
+#     dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "3306"
+    environment:
+      - DATABASE_USER=root
+      - DATABASE_PASSWORD=123456
+      - DATABASE_NAME=spring
+    depends_on:
+      - ik-mysql
+#    links:
+#      - ik-mysql

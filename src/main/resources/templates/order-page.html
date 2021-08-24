@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Заказ</title>
+
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/dist/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.1.3/js/bootstrap.min.js}"></script>
+    <link type="text/css" rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.3/css/bootstrap.min.css}"/>
+
+    <meta name="ctx" th:content="${#httpServletRequest.getContextPath()}"/>
+
+</head>
+<body>
+<div th:replace="~{navigation :: navi(Cart)}"/>
+
+<div class="container" align="center">
+    <h1>Ваш заказ</h1>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>Название товара</th>
+            <th>Количество товара</th>
+            <th>Цена за единицу товара</th>
+            <th>Итого по данному товару</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${productList}">
+            <td th:text="${product.titleRussian}">Название товара</td>
+            <td th:text="${product.quantity}">Количесвто товара</td>
+            <td th:text="${product.price}">Цена за единицу товара</td>
+            <td th:text="${product.totalPrice}">Итого по данному товара</td>
+        </tr>
+        </tbody>
+    </table>
+    <br></br>
+    <table border="1" cellpadding="10">
+        <tbody>
+        <tr >
+            <td>Всего стоимость заказа составляет</td>
+            <td th:text ="${price}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <br></br>
+    <span>
+       <a th:href="@{'/product/listProducts'}">Вернуться к перечню товаров</a>
+    </span>
+    <br></br>
+    <span>
+       <a th:href="@{'/pay'}">Оплатить заказ</a>
+    </span>
+</div>
+</body>
+</html>

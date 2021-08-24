@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:sec="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <title>Авторизация пользователя</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/dist/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.1.3/js/bootstrap.min.js}"></script>
+    <link type="text/css" rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.3/css/bootstrap.min.css}"/>
+
+    <script type="text/javascript" th:src="@{/webjars/sockjs-client/1.0.2/sockjs.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/stomp-websocket/2.3.3/stomp.min.js}"></script>
+</head>
+<body>
+
+<div th:replace="~{navigation :: navi(Product)}"></div>
+
+<div sec:authorize="isAuthenticated()">
+    <a th:href="@{'/'}" ></a>
+
+</div>
+<div class="container" align="center">
+    <form th:method="POST" th:action="@{'/login'}">
+        <h2>Вход в систему</h2>
+        <div class="form-group">
+            <div class="col-xs-15">
+                <div>
+                    <div th:if="${param.error} != null">
+                        <div class="alert alert-danger col-xs-offset-1 col-xs-10">
+                            Неверное имя или пароль.
+                        </div>
+                    </div>
+                    <div th:if="${param.logout} != null">
+                        <div class="alert alert-success col-xs-offset-1 col-xs-10">
+                            Вы вышли из системы.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <input name="username" type="text" placeholder="Username"/>
+            <input name="password" type="password" placeholder="Password"/>
+            <button type="submit" class="btn btn-success">Авторизоваться</button>
+            <h3><a href="/registration">Зарегистрироваться</a></h3>
+        </div>
+    </form>
+</div>
+</body>
+</html>

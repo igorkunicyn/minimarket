@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Редактирование продукта</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/dist/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.1.3/js/bootstrap.min.js}"></script>
+    <link type="text/css" rel="stylesheet" th:href="@{/webjars/bootstrap/4.1.3/css/bootstrap.min.css}"/>
+</head>
+<body>
+
+<div th:replace="~{navigation :: navi(Product)}"></div>
+
+<div class="container" align="center">
+  <h1>Редактирование продукта</h1>
+    <br />
+    <form action="#" th:action="@{/product/save}" th:object="${product}" method="post">
+        <table border="0" cellpadding="10">
+            <tr>
+                <td>ID:</td>
+                <td>
+                    <input type="text" th:field="*{id}" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>Название (по-русски):</td>
+                <td><input type="text" th:value="${product.titleRussian}" name="titleRussian"/></td>
+
+            </tr>
+            <tr>
+                <td>Название (по-английски):</td>
+                <td><input type="text" th:value="${product.titleEnglish}" name="titleEnglish" /></td>
+
+            </tr>
+            <tr>
+                <td>Цена :</td>
+                <td><input type="text" th:value="${product.price}" name="price"/></td>
+
+            </tr>
+            <tr>
+                <td>Категория товара:</td>
+                <td><input type="text" th:value="${category.name}" /></td>
+
+            </tr>
+            <tr>
+                <td><input type="hidden" th:value="${category.id}" name="numberOfCategory" /></td>
+
+            </tr>
+            <tr>
+                <td colspan="5"><button type="submit" class="btn btn-success">Сохранить</button> </td>
+            </tr>
+    </table>
+    </form>
+
+</div>
+</body>
+</html>
