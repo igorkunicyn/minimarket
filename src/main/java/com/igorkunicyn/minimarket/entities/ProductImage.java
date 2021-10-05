@@ -1,7 +1,6 @@
 package com.igorkunicyn.minimarket.entities;
 
 import lombok.Data;
-
 import javax.persistence.*;
 
 @Entity

@@ -15,5 +15,4 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     <S extends Product> S save(S s);
 
     Product findProductById(long id);
-
 }

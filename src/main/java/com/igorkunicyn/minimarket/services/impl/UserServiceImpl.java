@@ -1,8 +1,9 @@
-package com.igorkunicyn.minimarket.services;
+package com.igorkunicyn.minimarket.services.impl;
 
 import com.igorkunicyn.minimarket.entities.User;
 import com.igorkunicyn.minimarket.repositories.RoleRepository;
 import com.igorkunicyn.minimarket.repositories.UserRepository;
+import com.igorkunicyn.minimarket.services.Serviceable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -16,24 +17,25 @@ import javax.validation.ConstraintViolationException;
 import java.util.List;
 import java.util.Optional;
 
-@Service
-public class UserService implements UserDetailsService {
+//@Service
+public class UserServiceImpl implements Serviceable<User>, UserDetailsService {
 
     private UserRepository userRepo;
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    private RoleRepository roleRepo;
+    private final int PAGE_SIZE = 5;
 
     @Autowired
     public void setUserRepo(UserRepository userRepo) {
         this.userRepo = userRepo;
     }
 
-    private RoleRepository roleRepo;
 
     @Autowired
     public void setRoleRepo(RoleRepository roleRepo) {
         this.roleRepo = roleRepo;
     }
 
-    BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
     public void setbCryptPasswordEncoder(BCryptPasswordEncoder bCryptPasswordEncoder) {
@@ -41,8 +43,7 @@ public class UserService implements UserDetailsService {
     }
 
     public Page<User> findPaginated(int pageNum) {
-        int pageSize = 5;
-        Pageable pageable = PageRequest.of(pageNum - 1, pageSize);
+        Pageable pageable = PageRequest.of(pageNum - 1, PAGE_SIZE);
         return userRepo.findAll(pageable);
     }
 
@@ -56,16 +57,19 @@ public class UserService implements UserDetailsService {
         return myUser;
     }
 
-    public User findUserById(Long userId) {
+    @Override
+    public User getById(long userId) {
         Optional<User> userFromDb = Optional.ofNullable(userRepo.findById(userId));
         return userFromDb.orElse(new User());
     }
 
-    public List<User> allUsers() {
+    @Override
+    public List<User> getList() {
         return userRepo.findAll();
     }
 
-    public boolean saveUser(User user) {
+    @Override
+    public boolean save(User user) {
         User userFromDb = userRepo.findByUsername(user.getUsername());
         if (userFromDb != null) {
             return false;
@@ -80,23 +84,13 @@ public class UserService implements UserDetailsService {
         return true;
     }
 
-    public boolean deleteUser(Long userId) {
+    @Override
+    public boolean delete(long userId) {
         User user = userRepo.findById(userId);
         if (user != null) {
-            userRepo.delete(user);
-            return true;
+            userRepo.delete(userRepo.findById(userId));
         }
-        return false;
-    }
-
-    public boolean editUser(Long userId) {
-        User user = userRepo.findById(userId);
-        if (user != null) {
-            user.addRoles(roleRepo.findByName("ROLE_ADMIN"));
-            userRepo.save(user);
-            return true;
-        }
-        return false;
+        return userRepo.findById(userId) == null;
     }
 
 }

@@ -1,7 +1,7 @@
 package com.igorkunicyn.minimarket.controllers;
 
 import com.igorkunicyn.minimarket.entities.User;
-import com.igorkunicyn.minimarket.services.UserService;
+import com.igorkunicyn.minimarket.services.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,11 +14,11 @@ import javax.validation.Valid;
 @Controller
 public class RegistrationController {
 
-    private UserService userService;
+    private UserServiceImpl userServiceImpl;
 
     @Autowired
-    public void setUserService(UserService userService) {
-        this.userService = userService;
+    public void setUserService(UserServiceImpl userServiceImpl) {
+        this.userServiceImpl = userServiceImpl;
     }
 
     @GetMapping("/registration")
@@ -37,7 +37,7 @@ public class RegistrationController {
             model.addAttribute("passwordError", "Пароли не совпадают");
             return "registration";
         }
-        if (!userService.saveUser(userForm)){
+        if (!userServiceImpl.save(userForm)){
             model.addAttribute("usernameError", "Пользователь с таким именем уже существует");
             return "registration";
         }

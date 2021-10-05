@@ -14,22 +14,22 @@ public class AppLoggingAspect {
 
     private Logger logger = Logger.getLogger(AppLoggingAspect.class.getName());
 
-    @Before("execution(public * com.igorkunicyn.minimarket.services.CartService.addCart(..))")
+    @Before("execution(public * com.igorkunicyn.minimarket.services.impl.CartServiceImpl.addCart(..))")
     public void beforeAddProductToCart() {
         logger.info("Начинается добавление продукта в корзину");
     }
 
-    @AfterReturning("execution(public * com.igorkunicyn.minimarket.services.CartService.addCart(..))")
+    @AfterReturning("execution(public * com.igorkunicyn.minimarket.services.impl.CartServiceImpl.addCart(..))")
     public void afterAddProductToCart() {
         logger.info("Продукт успешно добавлен в корзину");
     }
 
-    @Before("execution(public * com.igorkunicyn.minimarket.services.CartService.deleteFromCart(..))")
+    @Before("execution(public * com.igorkunicyn.minimarket.services.impl.CartServiceImpl.deleteFromCart(..))")
     public void beforeDeleteProductFromCart() {
         logger.info("Начинается удаление продукта из корзины");
     }
 
-    @AfterReturning("execution(public * com.igorkunicyn.minimarket.services.CartService.deleteFromCart(..))")
+    @AfterReturning("execution(public * com.igorkunicyn.minimarket.services.impl.CartServiceImpl.deleteFromCart(..))")
     public void afterDeleteProductFromCart() {
         logger.info("Продукт успешно удален из корзины");
     }

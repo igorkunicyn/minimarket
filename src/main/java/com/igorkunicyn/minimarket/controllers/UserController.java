@@ -1,7 +1,7 @@
 package com.igorkunicyn.minimarket.controllers;
 
 import com.igorkunicyn.minimarket.entities.User;
-import com.igorkunicyn.minimarket.services.UserService;
+import com.igorkunicyn.minimarket.services.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
@@ -15,11 +15,11 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
-    private UserService userService;
+    private UserServiceImpl userServiceImpl;
 
     @Autowired
-    public void setUserService(UserService userService) {
-        this.userService = userService;
+    public void setUserService(UserServiceImpl userServiceImpl) {
+        this.userServiceImpl = userServiceImpl;
     }
 
     @RequestMapping("")
@@ -29,7 +29,7 @@ public class UserController {
 
     @RequestMapping(value = "/page/{pageNum}")
     public String viewPage(@PathVariable(name = "pageNum") int pageNum, Model uiModel) {
-        Page<User> userPage = userService.findPaginated(pageNum);
+        Page<User> userPage = userServiceImpl.findPaginated(pageNum);
         List<User> userList = userPage.getContent();
         uiModel.addAttribute("currentPage", pageNum);
         uiModel.addAttribute("totalPages", userPage.getTotalPages());

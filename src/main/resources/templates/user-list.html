@@ -34,6 +34,24 @@
 <!--                        <button type="submit">Delete</button>-->
 <!--                    </form>-->
                 </td>
+            <div>
+                Всего пользователей: [[${totalItems}]] &nbsp; &nbsp;Всего страниц: [[${totalPages}]] &nbsp; &nbsp;
+                <a th:if="${currentPage > 1}" th:href="@{'/admin/users/page/1'}">Первая</a>
+                <span th:unless="${currentPage > 1}">Первая</span>
+                <a th:if="${currentPage > 1}"
+                   th:href="@{'/admin/users/page/' + ${currentPage - 1}}">Предыдущая</a>
+                <span th:unless="${currentPage > 1}">Предыдущая</span>
+                <span th:each="i : ${#numbers.sequence(1, totalPages)}">
+                    <a th:if="${currentPage != i}" th:href="@{'/admin/users/page/' + ${i}}">[[${i}]]</a>
+                     <span th:unless="${currentPage != i}">[[${i}]]</span>
+        &nbsp;       </span>
+                <a th:if="${currentPage < totalPages}" th:href="@{'/admin/users/page/' + ${currentPage + 1}}">Следующая</a>
+                <span th:unless="currentPage < totalPages">Следующая</span>
+                <a th:if="${currentPage < totalPages}" th:href="@{'/admin/users/page/' + ${totalPages}}">Последняя</a>
+                <span th:unless="${currentPage < totalPages}">Последняя</span>
+            </div>
+            <br></br>
+
         </tr>
     </table>
 <!--    <a href="/">Главная</a>-->

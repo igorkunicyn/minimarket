@@ -1,13 +1,15 @@
-package com.igorkunicyn.minimarket.services;
+package com.igorkunicyn.minimarket.services.impl;
 
 import com.igorkunicyn.minimarket.entities.Category;
 import com.igorkunicyn.minimarket.repositories.CategoryRepository;
+import com.igorkunicyn.minimarket.services.Serviceable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 @Service
-public class CategoryService {
+public class CategoryServiceImpl implements Serviceable<Category> {
 
     private CategoryRepository categoryRepo;
 
@@ -16,24 +18,27 @@ public class CategoryService {
         this.categoryRepo = categoryRepo;
     }
 
-    public List<Category> categoryList() {
+    @Override
+    public List<Category> getList() {
         return categoryRepo.findAll();
     }
 
-    public void save(Category category) {
+    @Override
+    public boolean save(Category category) {
         categoryRepo.save(category);
+        return categoryRepo.existsById(category.getId());
     }
 
-    public Category getCategoryById(long id) {
+    @Override
+    public Category getById(long id) {
         return categoryRepo.findById(id);
     }
 
-    public boolean deleteCategory(long id) {
-        Category category = categoryRepo.findById(id);
-        if (category != null && category.getProducts().isEmpty()) {
-            categoryRepo.delete(category);
-            return true;
-        }
-        return false;
+
+    @Override
+    public boolean delete(long id) {
+        categoryRepo.delete(getById(id));
+        return !categoryRepo.existsById(id);
     }
+
 }

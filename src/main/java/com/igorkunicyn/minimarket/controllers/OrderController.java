@@ -1,7 +1,7 @@
 package com.igorkunicyn.minimarket.controllers;
 
 import com.igorkunicyn.minimarket.entities.Product;
-import com.igorkunicyn.minimarket.services.OrderService;
+import com.igorkunicyn.minimarket.services.impl.OrderServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,17 +15,17 @@ import java.util.List;
 @RequestMapping("/order")
 public class OrderController {
 
-    private OrderService orderService;
+    private OrderServiceImpl orderServiceImpl;
 
     @Autowired
-    public void setOrderService(OrderService orderService) {
-        this.orderService = orderService;
+    public void setOrderService(OrderServiceImpl orderServiceImpl) {
+        this.orderServiceImpl = orderServiceImpl;
     }
 
     @GetMapping("")
     public String shopPage(Model model, HttpSession httpSession) {
-        List<Product> productList = orderService.getOrder().getProducts();
-        BigDecimal price = orderService.totalPriceOrder(productList);
+        List<Product> productList = orderServiceImpl.getOrder().getProducts();
+        BigDecimal price = orderServiceImpl.totalPrice(productList);
         model.addAttribute("price",price);
         model.addAttribute("productList", productList);
         return "order-page";
