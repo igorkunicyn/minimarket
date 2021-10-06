@@ -23,5 +23,4 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
                 .addEndpoint("/content")
                 .withSockJS();
     }
-
 }

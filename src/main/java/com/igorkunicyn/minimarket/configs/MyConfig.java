@@ -8,6 +8,16 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class MyConfig implements WebMvcConfigurer {
 
+    private static MyConfig myConf;
+
+//    private MyConfig(){}
+
+    public static MyConfig getInstance(){
+        if (myConf == null){
+            myConf = new MyConfig();
+        }
+        return myConf;
+    }
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/jquery/**")

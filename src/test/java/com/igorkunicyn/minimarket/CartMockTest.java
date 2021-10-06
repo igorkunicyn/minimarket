@@ -1,6 +1,6 @@
 package com.igorkunicyn.minimarket;
 
-import com.igorkunicyn.minimarket.services.CartService;
+import com.igorkunicyn.minimarket.services.impl.CartServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@ public class CartMockTest {
     private MockMvc mockMvc;
 
     @MockBean
-    private CartService cartService;
+    private CartServiceImpl cartServiceImpl;
     
 
 //    @Before
