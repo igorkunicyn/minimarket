@@ -3,825 +3,848 @@
   <ID>JAVA</ID>
   <OriginalElement>C:/Java/minimarket</OriginalElement>
   <nodes>
-    <node x="2646.144578313253" y="979.0">com.igorkunicyn.minimarket.repositories.CategoryRepository</node>
-    <node x="1618.5" y="923.0">com.igorkunicyn.minimarket.entities.Cart</node>
-    <node x="32.75" y="2084.0">com.igorkunicyn.minimarket.repositories.RoleRepository</node>
-    <node x="9.0" y="2691.0">com.igorkunicyn.minimarket.controllers.UserController</node>
-    <node x="614.1250000000001" y="2049.5">com.igorkunicyn.minimarket.services.RabbitService</node>
-    <node x="1103.0" y="2871.0">com.igorkunicyn.minimarket.utils.AppLoggingAspect</node>
-    <node x="1622.9706325301206" y="1984.0">com.igorkunicyn.minimarket.CartUnitTests</node>
-    <node x="1702.0956325301206" y="1427.0">com.igorkunicyn.minimarket.services.CartService</node>
-    <node x="1390.0" y="2871.0">com.igorkunicyn.minimarket.configs.SecurityConfig</node>
-    <node x="703.5376506024097" y="1472.0">com.igorkunicyn.minimarket.repositories.OrderRepository</node>
-    <node x="315.125" y="2051.0">com.igorkunicyn.minimarket.repositories.UserRepository</node>
-    <node x="0.0" y="2871.0">com.igorkunicyn.minimarket.configs.RabbitConfig</node>
-    <node x="220.0" y="2342.0">com.igorkunicyn.minimarket.services.UserService</node>
-    <node x="224.64457831325308" y="890.0">com.igorkunicyn.minimarket.entities.Role</node>
-    <node x="1340.125" y="2028.0">com.igorkunicyn.minimarket.CartMockTest</node>
-    <node x="237.0" y="2691.0">com.igorkunicyn.minimarket.controllers.RegistrationController</node>
-    <node x="533.0000000000001" y="2680.0">com.igorkunicyn.minimarket.controllers.AdminController</node>
-    <node x="3053.0" y="2871.0">com.igorkunicyn.minimarket.controllers.MainController</node>
-    <node x="510.0" y="2871.0">MavenWrapperDownloader</node>
-    <node x="647.5489457831327" y="868.0">com.igorkunicyn.minimarket.entities.Order</node>
-    <node x="1766.0" y="2871.0">com.igorkunicyn.minimarket.configs.WebSocketConfig</node>
-    <node x="827.1250000000001" y="2017.0">com.igorkunicyn.minimarket.services.OrderService</node>
-    <node x="2722.9819277108436" y="2017.0">com.igorkunicyn.minimarket.controllers.CategoryController</node>
-    <node x="2190.2319277108436" y="0.0">com.igorkunicyn.minimarket.entities.Category</node>
-    <node x="199.125" y="1262.0">com.igorkunicyn.minimarket.entities.User</node>
-    <node x="861.0" y="2871.0">com.igorkunicyn.minimarket.enums.AddProduct</node>
-    <node x="998.3750000000001" y="2407.5">com.igorkunicyn.minimarket.controllers.RabbitController</node>
-    <node x="732.3750000000001" y="2430.0">com.igorkunicyn.minimarket.controllers.OrderController</node>
-    <node x="1603.375" y="22.0">com.igorkunicyn.minimarket.entities.ProductImage</node>
-    <node x="1588.375" y="328.0">com.igorkunicyn.minimarket.entities.Product</node>
-    <node x="2522.0" y="2871.0">com.igorkunicyn.minimarket.MinimarketApplicationTests</node>
-    <node x="2340.8456325301204" y="1984.0">com.igorkunicyn.minimarket.controllers.ProductController</node>
-    <node x="1123.125" y="2061.0">com.igorkunicyn.minimarket.controllers.ContentCartController</node>
-    <node x="1892.125" y="968.0">com.igorkunicyn.minimarket.repositories.ProductRepository</node>
-    <node x="1852.9706325301206" y="2017.0">com.igorkunicyn.minimarket.controllers.CartController</node>
-    <node x="2147.0" y="2871.0">com.igorkunicyn.minimarket.configs.MyConfig</node>
-    <node x="2804.0" y="2871.0">com.igorkunicyn.minimarket.MiniMarketApplication</node>
-    <node x="0.0" y="2430.0">com.igorkunicyn.minimarket.services.RoleService</node>
-    <node x="2128.5956325301204" y="1394.0">com.igorkunicyn.minimarket.services.ProductService</node>
-    <node x="2595.019578313253" y="1427.0">com.igorkunicyn.minimarket.services.CategoryService</node>
+    <node x="2530.800149700599" y="1021.0">com.igorkunicyn.minimarket.repositories.CategoryRepository</node>
+    <node x="1788.127245508982" y="965.0">com.igorkunicyn.minimarket.entities.Cart</node>
+    <node x="0.0" y="1032.0">com.igorkunicyn.minimarket.repositories.RoleRepository</node>
+    <node x="781.3405688622755" y="1861.0">com.igorkunicyn.minimarket.services.RabbitService</node>
+    <node x="866.0" y="2269.0">com.igorkunicyn.minimarket.utils.AppLoggingAspect</node>
+    <node x="537.8001497005989" y="1850.0">com.igorkunicyn.minimarket.controllers.UserController</node>
+    <node x="2024.050149700599" y="1828.5">com.igorkunicyn.minimarket.CartUnitTests</node>
+    <node x="1601.300149700599" y="1369.0">com.igorkunicyn.minimarket.services.CartService</node>
+    <node x="490.0" y="2269.0">com.igorkunicyn.minimarket.configs.SecurityConfig</node>
+    <node x="823.7178143712575" y="1414.0">com.igorkunicyn.minimarket.repositories.OrderRepository</node>
+    <node x="281.9251497005989" y="999.0">com.igorkunicyn.minimarket.repositories.UserRepository</node>
+    <node x="0.0" y="2269.0">com.igorkunicyn.minimarket.configs.RabbitConfig</node>
+    <node x="237.75" y="1314.0">com.igorkunicyn.minimarket.services.UserService</node>
+    <node x="555.2500000000001" y="0.0">com.igorkunicyn.minimarket.entities.Role</node>
+    <node x="1318.550149700599" y="1861.5">com.igorkunicyn.minimarket.CartMockTest</node>
+    <node x="11.800149700598922" y="1850.0">com.igorkunicyn.minimarket.controllers.RegistrationController</node>
+    <node x="307.8001497005989" y="1839.0">com.igorkunicyn.minimarket.controllers.AdminController</node>
+    <node x="249.0" y="2525.0">com.igorkunicyn.minimarket.controllers.MainController</node>
+    <node x="1435.0" y="2269.0">MavenWrapperDownloader</node>
+    <node x="1738.0" y="2269.0">com.igorkunicyn.minimarket.configs.WebSocketConfig</node>
+    <node x="937.0000000000001" y="910.0">com.igorkunicyn.minimarket.entities.Order</node>
+    <node x="2612.2178143712576" y="1817.0">com.igorkunicyn.minimarket.controllers.CategoryController</node>
+    <node x="994.3405688622755" y="1817.0">com.igorkunicyn.minimarket.services.OrderService</node>
+    <node x="618.8750000000001" y="328.0">com.igorkunicyn.minimarket.entities.User</node>
+    <node x="2231.925149700599" y="0.0">com.igorkunicyn.minimarket.entities.Category</node>
+    <node x="1173.0" y="2269.0">com.igorkunicyn.minimarket.enums.AddProduct</node>
+    <node x="899.5501497005989" y="2100.0">com.igorkunicyn.minimarket.controllers.RabbitController</node>
+    <node x="1710.800149700599" y="22.0">com.igorkunicyn.minimarket.entities.ProductImage</node>
+    <node x="1103.550149700599" y="2111.0">com.igorkunicyn.minimarket.controllers.OrderController</node>
+    <node x="1695.800149700599" y="339.0">com.igorkunicyn.minimarket.entities.Product</node>
+    <node x="2494.0" y="2269.0">com.igorkunicyn.minimarket.MinimarketApplicationTests</node>
+    <node x="2264.2178143712576" y="1784.0">com.igorkunicyn.minimarket.controllers.ProductController</node>
+    <node x="2098.75" y="1010.0">com.igorkunicyn.minimarket.repositories.ProductRepository</node>
+    <node x="1480.550149700599" y="1861.0">com.igorkunicyn.minimarket.controllers.ContentCartController</node>
+    <node x="1719.300149700599" y="1817.0">com.igorkunicyn.minimarket.controllers.CartController</node>
+    <node x="2119.0" y="2269.0">com.igorkunicyn.minimarket.configs.MyConfig</node>
+    <node x="0.0" y="2525.0">com.igorkunicyn.minimarket.MiniMarketApplication</node>
+    <node x="17.75" y="1402.0">com.igorkunicyn.minimarket.services.RoleService</node>
+    <node x="2086.625" y="1336.0">com.igorkunicyn.minimarket.services.ProductService</node>
+    <node x="2540.925149700599" y="1369.0">com.igorkunicyn.minimarket.services.CategoryService</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.igorkunicyn.minimarket.controllers.RabbitController" target="com.igorkunicyn.minimarket.services.OrderService" relationship="DEPENDENCY">
-      <point x="-46.0" y="-73.5" />
-      <point x="1044.375" y="2321.0" />
-      <point x="850.3750000000001" y="2321.0" />
-      <point x="850.3750000000001" y="2311.0" />
-      <point x="896.1250000000001" y="2311.0" />
+      <point x="-46.0" y="-62.0" />
+      <point x="945.5501497005989" y="2080.0" />
+      <point x="986.5501497005989" y="2080.0" />
+      <point x="986.5501497005989" y="2060.0" />
+      <point x="1063.3405688622756" y="2060.0" />
       <point x="-69.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.AdminController" target="com.igorkunicyn.minimarket.services.UserService" relationship="TO_ONE">
       <point x="-52.5" y="-73.0" />
-      <point x="585.5000000000001" y="2660.0" />
-      <point x="230.5" y="2660.0" />
-      <point x="230.5" y="2640.0" />
-      <point x="297.5" y="2640.0" />
+      <point x="360.3001497005989" y="1763.0" />
+      <point x="252.127245508982" y="1763.0" />
+      <point x="252.127245508982" y="1743.0" />
+      <point x="315.25" y="1743.0" />
       <point x="-77.5" y="139.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.UserService" target="com.igorkunicyn.minimarket.repositories.UserRepository" relationship="TO_ONE">
       <point x="-77.5" y="-139.0" />
-      <point x="297.5" y="2321.0" />
-      <point x="370.0000000000001" y="2321.0" />
-      <point x="370.0000000000001" y="2281.0" />
-      <point x="365.375" y="2281.0" />
+      <point x="315.25" y="1292.0" />
+      <point x="377.4251497005989" y="1292.0" />
+      <point x="377.4251497005989" y="1252.0" />
+      <point x="332.1751497005989" y="1252.0" />
       <point x="-50.25" y="61.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.controllers.ContentCartController" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
-      <point x="-49.25" y="-51.0" />
-      <point x="1172.375" y="1842.0" />
-      <point x="1460.5956325301206" y="1842.0" />
-      <point x="1460.5956325301206" y="1812.0" />
-      <point x="1769.0956325301206" y="1812.0" />
-      <point x="-67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CartController" target="com.igorkunicyn.minimarket.entities.Cart" relationship="DEPENDENCY">
       <point x="67.25" y="-95.0" />
-      <point x="2054.7206325301204" y="1952.0" />
-      <point x="1853.269578313253" y="1952.0" />
-      <point x="1853.269578313253" y="1912.0" />
-      <point x="1980.5956325301206" y="1912.0" />
-      <point x="1980.5956325301206" y="1240.0" />
-      <point x="1879.8456325301206" y="1240.0" />
-      <point x="1879.8456325301206" y="1230.0" />
-      <point x="1759.5" y="1230.0" />
+      <point x="1921.050149700599" y="1763.0" />
+      <point x="2003.800149700599" y="1763.0" />
+      <point x="2003.800149700599" y="1653.0" />
+      <point x="1908.25" y="1653.0" />
+      <point x="1908.25" y="1282.0" />
+      <point x="2005.5" y="1282.0" />
+      <point x="2005.5" y="1272.0" />
+      <point x="1929.127245508982" y="1272.0" />
       <point x="47.0" y="95.0" />
+    </edge>
+    <edge source="com.igorkunicyn.minimarket.controllers.ContentCartController" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
+      <point x="-49.25" y="-51.0" />
+      <point x="1529.800149700599" y="1763.0" />
+      <point x="1456.4678143712576" y="1763.0" />
+      <point x="1456.4678143712576" y="1663.0" />
+      <point x="1668.300149700599" y="1663.0" />
+      <point x="-67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.CategoryService" target="com.igorkunicyn.minimarket.entities.Category" relationship="DEPENDENCY">
       <point x="-57.25" y="-84.0" />
-      <point x="2652.269578313253" y="1240.0" />
-      <point x="2704.519578313253" y="1240.0" />
-      <point x="2704.519578313253" y="1200.0" />
-      <point x="2635.644578313253" y="1200.0" />
-      <point x="2635.644578313253" y="307.0" />
-      <point x="2686.644578313253" y="307.0" />
-      <point x="2686.644578313253" y="287.0" />
-      <point x="2345.4819277108436" y="287.0" />
+      <point x="2598.175149700599" y="1292.0" />
+      <point x="2649.9176646706587" y="1292.0" />
+      <point x="2649.9176646706587" y="1282.0" />
+      <point x="2724.300149700599" y="1282.0" />
+      <point x="2724.300149700599" y="307.0" />
+      <point x="2664.2155688622756" y="307.0" />
+      <point x="2664.2155688622756" y="287.0" />
+      <point x="2387.175149700599" y="287.0" />
       <point x="51.75" y="128.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.RoleService" target="com.igorkunicyn.minimarket.repositories.RoleRepository" relationship="DEPENDENCY">
-      <point x="-50.0" y="-51.0" />
-      <point x="50.0" y="2321.0" />
-      <point x="95.0" y="2321.0" />
-      <point x="95.0" y="2311.0" />
-      <point x="223.75" y="2311.0" />
-      <point x="223.75" y="2261.0" />
-      <point x="167.75" y="2261.0" />
+      <point x="50.0" y="-51.0" />
+      <point x="167.75" y="1292.0" />
+      <point x="122.75" y="1292.0" />
+      <point x="122.75" y="1272.0" />
+      <point x="95.0" y="1272.0" />
+      <point x="95.0" y="1232.0" />
+      <point x="135.0" y="1232.0" />
       <point x="45.0" y="28.0" />
     </edge>
-    <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.services.ProductService" relationship="TO_ONE">
-      <point x="-52.5" y="-128.0" />
-      <point x="1675.4706325301206" y="1962.0" />
-      <point x="1370.9239457831327" y="1962.0" />
-      <point x="1370.9239457831327" y="1862.0" />
-      <point x="1702.0956325301206" y="1862.0" />
-      <point x="1702.0956325301206" y="1802.0" />
-      <point x="2194.0956325301204" y="1802.0" />
-      <point x="-65.5" y="117.0" />
+    <edge source="com.igorkunicyn.minimarket.entities.Order" target="com.igorkunicyn.minimarket.entities.User" relationship="TO_ONE">
+      <point x="53.0" y="-150.0" />
+      <point x="1096.0" y="888.0" />
+      <point x="1048.0" y="888.0" />
+      <point x="1048.0" y="858.0" />
+      <point x="860.3750000000001" y="858.0" />
+      <point x="80.5" y="249.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.ProductImage" relationship="DEPENDENCY">
       <point x="59.0" y="-238.0" />
-      <point x="1765.375" y="307.0" />
-      <point x="1711.375" y="307.0" />
-      <point x="1711.375" y="287.0" />
-      <point x="1742.875" y="287.0" />
+      <point x="1872.800149700599" y="307.0" />
+      <point x="1818.800149700599" y="307.0" />
+      <point x="1818.800149700599" y="287.0" />
+      <point x="1850.300149700599" y="287.0" />
       <point x="46.5" y="106.0" />
     </edge>
-    <edge source="com.igorkunicyn.minimarket.entities.Order" target="com.igorkunicyn.minimarket.entities.User" relationship="TO_ONE">
-      <point x="-53.0" y="150.0" />
-      <point x="700.5489457831327" y="1200.0" />
-      <point x="568.5376506024097" y="1200.0" />
-      <point x="568.5376506024097" y="1220.0" />
-      <point x="358.0489457831327" y="1220.0" />
-      <point x="358.0489457831327" y="1240.0" />
-      <point x="279.625" y="1240.0" />
-      <point x="-80.5" y="-249.0" />
+    <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.services.ProductService" relationship="TO_ONE">
+      <point x="-35.75" y="-83.5" />
+      <point x="2059.800149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1733.0" />
+      <point x="2212.625" y="1733.0" />
+      <point x="2212.625" y="1613.0" />
+      <point x="2152.125" y="1613.0" />
+      <point x="-65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.ProductImage" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
       <point x="46.5" y="106.0" />
-      <point x="1742.875" y="287.0" />
-      <point x="1711.375" y="287.0" />
-      <point x="1711.375" y="307.0" />
-      <point x="1765.375" y="307.0" />
+      <point x="1850.300149700599" y="287.0" />
+      <point x="1818.800149700599" y="287.0" />
+      <point x="1818.800149700599" y="307.0" />
+      <point x="1872.800149700599" y="307.0" />
       <point x="59.0" y="-238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.ProductController" target="com.igorkunicyn.minimarket.services.ProductService" relationship="TO_ONE">
-      <point x="82.0" y="-128.0" />
-      <point x="2586.8456325301204" y="1962.0" />
-      <point x="2504.7206325301204" y="1962.0" />
-      <point x="2504.7206325301204" y="1852.0" />
-      <point x="1702.0956325301206" y="1852.0" />
-      <point x="1702.0956325301206" y="1802.0" />
-      <point x="2194.0956325301204" y="1802.0" />
+      <point x="-82.0" y="-128.0" />
+      <point x="2346.2178143712576" y="1763.0" />
+      <point x="2423.2178143712576" y="1763.0" />
+      <point x="2423.2178143712576" y="1713.0" />
+      <point x="2212.625" y="1713.0" />
+      <point x="2212.625" y="1613.0" />
+      <point x="2152.125" y="1613.0" />
       <point x="-65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.OrderService" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
       <point x="-69.0" y="-95.0" />
-      <point x="896.1250000000001" y="1962.0" />
-      <point x="822.5000000000001" y="1962.0" />
-      <point x="822.5000000000001" y="1832.0" />
-      <point x="1460.5956325301206" y="1832.0" />
-      <point x="1460.5956325301206" y="1812.0" />
-      <point x="1769.0956325301206" y="1812.0" />
+      <point x="1063.3405688622756" y="1763.0" />
+      <point x="974.1751497005989" y="1763.0" />
+      <point x="974.1751497005989" y="1693.0" />
+      <point x="1456.4678143712576" y="1693.0" />
+      <point x="1456.4678143712576" y="1663.0" />
+      <point x="1668.300149700599" y="1663.0" />
       <point x="-67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.ProductService" target="com.igorkunicyn.minimarket.repositories.CategoryRepository" relationship="TO_ONE">
       <point x="65.5" y="-117.0" />
-      <point x="2325.0956325301204" y="1240.0" />
-      <point x="2204.0956325301204" y="1240.0" />
-      <point x="2204.0956325301204" y="1230.0" />
-      <point x="2742.644578313253" y="1230.0" />
-      <point x="2742.644578313253" y="1210.0" />
-      <point x="2783.394578313253" y="1210.0" />
+      <point x="2283.125" y="1292.0" />
+      <point x="2269.25" y="1292.0" />
+      <point x="2269.25" y="1272.0" />
+      <point x="2658.9655688622756" y="1272.0" />
+      <point x="2658.9655688622756" y="1252.0" />
+      <point x="2668.050149700599" y="1252.0" />
       <point x="45.75" y="39.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Cart" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
       <point x="47.0" y="-95.0" />
-      <point x="1759.5" y="836.0" />
-      <point x="2057.625" y="836.0" />
-      <point x="2057.625" y="826.0" />
-      <point x="1765.375" y="826.0" />
+      <point x="1929.127245508982" y="888.0" />
+      <point x="1973.550149700599" y="888.0" />
+      <point x="1973.550149700599" y="848.0" />
+      <point x="1872.800149700599" y="848.0" />
       <point x="59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.ProductService" target="com.igorkunicyn.minimarket.repositories.ProductRepository" relationship="DEPENDENCY">
       <point x="-65.5" y="-117.0" />
-      <point x="2194.0956325301204" y="1190.0" />
-      <point x="1974.875" y="1190.0" />
+      <point x="2152.125" y="1292.0" />
+      <point x="2212.625" y="1292.0" />
+      <point x="2212.625" y="1252.0" />
+      <point x="2181.5" y="1252.0" />
       <point x="-82.75" y="50.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.services.CartService" relationship="DEPENDENCY">
-      <point x="52.5" y="-128.0" />
-      <point x="1780.4706325301206" y="1942.0" />
-      <point x="2091.1069277108436" y="1942.0" />
-      <point x="2091.1069277108436" y="1872.0" />
-      <point x="1903.0956325301206" y="1872.0" />
+      <point x="35.75" y="-83.5" />
+      <point x="2131.300149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1643.0" />
+      <point x="1802.300149700599" y="1643.0" />
       <point x="67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.entities.Cart" relationship="TO_ONE">
-      <point x="-52.5" y="-128.0" />
-      <point x="1675.4706325301206" y="1962.0" />
-      <point x="1370.9239457831327" y="1962.0" />
-      <point x="1370.9239457831327" y="1240.0" />
-      <point x="1553.875" y="1240.0" />
-      <point x="1553.875" y="1230.0" />
-      <point x="1665.5" y="1230.0" />
+      <point x="-35.75" y="-83.5" />
+      <point x="2059.800149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1633.0" />
+      <point x="1897.25" y="1633.0" />
+      <point x="1897.25" y="1292.0" />
+      <point x="1791.5" y="1292.0" />
+      <point x="1791.5" y="1272.0" />
+      <point x="1835.127245508982" y="1272.0" />
       <point x="-47.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.OrderController" target="com.igorkunicyn.minimarket.services.OrderService" relationship="TO_ONE">
       <point x="61.5" y="-51.0" />
-      <point x="916.8750000000001" y="2311.0" />
-      <point x="1095.375" y="2311.0" />
-      <point x="1095.375" y="2301.0" />
-      <point x="1034.125" y="2301.0" />
+      <point x="1288.050149700599" y="2070.0" />
+      <point x="1231.550149700599" y="2070.0" />
+      <point x="1231.550149700599" y="2060.0" />
+      <point x="1201.3405688622756" y="2060.0" />
       <point x="69.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Cart" target="com.igorkunicyn.minimarket.entities.Product" relationship="TO_MANY">
       <point x="-47.0" y="-95.0" />
-      <point x="1665.5" y="846.0" />
-      <point x="1421.0" y="846.0" />
-      <point x="1421.0" y="826.0" />
-      <point x="1647.375" y="826.0" />
+      <point x="1835.127245508982" y="858.0" />
+      <point x="1732.550149700599" y="858.0" />
+      <point x="1732.550149700599" y="848.0" />
+      <point x="1754.800149700599" y="848.0" />
       <point x="-59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.OrderService" target="com.igorkunicyn.minimarket.entities.Order" relationship="TO_ONE">
       <point x="-69.0" y="-95.0" />
-      <point x="896.1250000000001" y="1962.0" />
-      <point x="822.5000000000001" y="1962.0" />
-      <point x="822.5000000000001" y="1792.0" />
-      <point x="684.0376506024097" y="1792.0" />
-      <point x="684.0376506024097" y="1210.0" />
-      <point x="568.5376506024097" y="1210.0" />
-      <point x="568.5376506024097" y="1200.0" />
-      <point x="700.5489457831327" y="1200.0" />
+      <point x="1063.3405688622756" y="1763.0" />
+      <point x="974.1751497005989" y="1763.0" />
+      <point x="974.1751497005989" y="1653.0" />
+      <point x="756.4678143712575" y="1653.0" />
+      <point x="756.4678143712575" y="1282.0" />
+      <point x="990.0000000000001" y="1282.0" />
       <point x="-53.0" y="150.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.OrderService" target="com.igorkunicyn.minimarket.repositories.OrderRepository" relationship="DEPENDENCY">
       <point x="69.0" y="-95.0" />
-      <point x="1034.125" y="1962.0" />
-      <point x="1127.7876506024097" y="1962.0" />
-      <point x="1127.7876506024097" y="1812.0" />
-      <point x="877.6250000000001" y="1812.0" />
-      <point x="877.6250000000001" y="1802.0" />
-      <point x="942.7876506024097" y="1802.0" />
-      <point x="79.75" y="39.0" />
+      <point x="1201.3405688622756" y="1763.0" />
+      <point x="1247.9678143712576" y="1763.0" />
+      <point x="1247.9678143712576" y="1673.0" />
+      <point x="1029.300149700599" y="1673.0" />
+      <point x="1029.300149700599" y="1663.0" />
+      <point x="1062.9678143712576" y="1663.0" />
+      <point x="79.75000000000011" y="39.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CartController" target="com.igorkunicyn.minimarket.services.ProductService" relationship="DEPENDENCY">
       <point x="67.25" y="-95.0" />
-      <point x="2054.7206325301204" y="1952.0" />
-      <point x="1853.269578313253" y="1952.0" />
-      <point x="1853.269578313253" y="1922.0" />
-      <point x="2325.0956325301204" y="1922.0" />
+      <point x="1921.050149700599" y="1763.0" />
+      <point x="2003.800149700599" y="1763.0" />
+      <point x="2003.800149700599" y="1743.0" />
+      <point x="2222.625" y="1743.0" />
+      <point x="2222.625" y="1613.0" />
+      <point x="2283.125" y="1613.0" />
       <point x="65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.OrderService" target="com.igorkunicyn.minimarket.entities.Order" relationship="DEPENDENCY">
       <point x="69.0" y="-95.0" />
-      <point x="1034.125" y="1962.0" />
-      <point x="1127.7876506024097" y="1962.0" />
-      <point x="1127.7876506024097" y="1220.0" />
-      <point x="806.5489457831327" y="1220.0" />
+      <point x="1201.3405688622756" y="1763.0" />
+      <point x="1247.9678143712576" y="1763.0" />
+      <point x="1247.9678143712576" y="1292.0" />
+      <point x="1128.0" y="1292.0" />
+      <point x="1128.0" y="1282.0" />
+      <point x="1096.0" y="1282.0" />
       <point x="53.0" y="150.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartMockTest" target="com.igorkunicyn.minimarket.services.CartService" relationship="DEPENDENCY">
-      <point x="50.0" y="-84.0" />
-      <point x="1490.125" y="1892.0" />
-      <point x="1903.0956325301206" y="1892.0" />
+      <point x="35.5" y="-50.5" />
+      <point x="1425.050149700599" y="1713.0" />
+      <point x="1802.300149700599" y="1713.0" />
       <point x="67.0" y="84.0" />
     </edge>
-    <edge source="com.igorkunicyn.minimarket.entities.Role" target="com.igorkunicyn.minimarket.entities.User" relationship="DEPENDENCY">
-      <point x="-46.5" y="128.0" />
-      <point x="271.1445783132531" y="1190.0" />
-      <point x="176.9819277108436" y="1190.0" />
-      <point x="176.9819277108436" y="1200.0" />
-      <point x="368.0489457831327" y="1200.0" />
-      <point x="368.0489457831327" y="1240.0" />
-      <point x="440.625" y="1240.0" />
-      <point x="80.5" y="-249.0" />
-    </edge>
     <edge source="com.igorkunicyn.minimarket.entities.User" target="com.igorkunicyn.minimarket.entities.Role" relationship="DEPENDENCY">
-      <point x="80.5" y="-249.0" />
-      <point x="440.625" y="1240.0" />
-      <point x="368.0489457831327" y="1240.0" />
-      <point x="368.0489457831327" y="1200.0" />
-      <point x="176.9819277108436" y="1200.0" />
-      <point x="176.9819277108436" y="1190.0" />
-      <point x="271.1445783132531" y="1190.0" />
+      <point x="-80.5" y="-249.0" />
+      <point x="699.3750000000001" y="307.0" />
+      <point x="210.55014970059892" y="307.0" />
+      <point x="210.55014970059892" y="297.0" />
+      <point x="601.7500000000001" y="297.0" />
       <point x="-46.5" y="128.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
-      <point x="52.5" y="-128.0" />
-      <point x="1780.4706325301206" y="1942.0" />
-      <point x="2091.1069277108436" y="1942.0" />
-      <point x="2091.1069277108436" y="1792.0" />
-      <point x="2426.9706325301204" y="1792.0" />
-      <point x="2426.9706325301204" y="836.0" />
-      <point x="2057.625" y="836.0" />
-      <point x="2057.625" y="826.0" />
-      <point x="1765.375" y="826.0" />
+      <point x="35.75" y="-83.5" />
+      <point x="2131.300149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1623.0" />
+      <point x="2447.625" y="1623.0" />
+      <point x="2447.625" y="888.0" />
+      <point x="1973.550149700599" y="888.0" />
+      <point x="1973.550149700599" y="848.0" />
+      <point x="1872.800149700599" y="848.0" />
       <point x="59.0" y="238.0" />
+    </edge>
+    <edge source="com.igorkunicyn.minimarket.entities.Role" target="com.igorkunicyn.minimarket.entities.User" relationship="DEPENDENCY">
+      <point x="-46.5" y="128.0" />
+      <point x="601.7500000000001" y="297.0" />
+      <point x="210.55014970059892" y="297.0" />
+      <point x="210.55014970059892" y="307.0" />
+      <point x="699.3750000000001" y="307.0" />
+      <point x="-80.5" y="-249.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.ProductService" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
       <point x="-65.5" y="-117.0" />
-      <point x="2194.0956325301204" y="1190.0" />
-      <point x="2323.4706325301204" y="1190.0" />
-      <point x="2323.4706325301204" y="836.0" />
-      <point x="2057.625" y="836.0" />
-      <point x="2057.625" y="826.0" />
-      <point x="1765.375" y="826.0" />
+      <point x="2152.125" y="1292.0" />
+      <point x="2212.625" y="1292.0" />
+      <point x="2212.625" y="1252.0" />
+      <point x="2088.25" y="1252.0" />
+      <point x="2088.25" y="888.0" />
+      <point x="1973.550149700599" y="888.0" />
+      <point x="1973.550149700599" y="848.0" />
+      <point x="1872.800149700599" y="848.0" />
       <point x="59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.Category" relationship="TO_ONE">
       <point x="-59.0" y="-238.0" />
-      <point x="1647.375" y="307.0" />
-      <point x="1701.375" y="307.0" />
-      <point x="1701.375" y="277.0" />
-      <point x="2241.9819277108436" y="277.0" />
+      <point x="1754.800149700599" y="307.0" />
+      <point x="1808.800149700599" y="307.0" />
+      <point x="1808.800149700599" y="277.0" />
+      <point x="2283.675149700599" y="277.0" />
       <point x="-51.75" y="128.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.RegistrationController" target="com.igorkunicyn.minimarket.services.UserService" relationship="TO_ONE">
       <point x="-69.0" y="-62.0" />
-      <point x="306.0" y="2660.0" />
-      <point x="230.5" y="2660.0" />
-      <point x="230.5" y="2640.0" />
-      <point x="297.5" y="2640.0" />
+      <point x="80.80014970059892" y="1763.0" />
+      <point x="252.127245508982" y="1763.0" />
+      <point x="252.127245508982" y="1743.0" />
+      <point x="315.25" y="1743.0" />
       <point x="-77.5" y="139.0" />
     </edge>
-    <edge source="com.igorkunicyn.minimarket.entities.Order" target="com.igorkunicyn.minimarket.entities.User" relationship="DEPENDENCY">
-      <point x="53.0" y="150.0" />
-      <point x="806.5489457831327" y="1230.0" />
-      <point x="368.0489457831327" y="1230.0" />
-      <point x="368.0489457831327" y="1240.0" />
-      <point x="440.625" y="1240.0" />
-      <point x="80.5" y="-249.0" />
-    </edge>
     <edge source="com.igorkunicyn.minimarket.entities.User" target="com.igorkunicyn.minimarket.entities.Order" relationship="DEPENDENCY">
-      <point x="80.5" y="-249.0" />
-      <point x="440.625" y="1240.0" />
-      <point x="368.0489457831327" y="1240.0" />
-      <point x="368.0489457831327" y="1230.0" />
-      <point x="806.5489457831327" y="1230.0" />
-      <point x="53.0" y="150.0" />
+      <point x="-80.5" y="249.0" />
+      <point x="699.3750000000001" y="858.0" />
+      <point x="493.4251497005989" y="858.0" />
+      <point x="493.4251497005989" y="868.0" />
+      <point x="1038.0" y="868.0" />
+      <point x="1038.0" y="888.0" />
+      <point x="990.0000000000001" y="888.0" />
+      <point x="-53.0" y="-150.0" />
+    </edge>
+    <edge source="com.igorkunicyn.minimarket.entities.Order" target="com.igorkunicyn.minimarket.entities.User" relationship="DEPENDENCY">
+      <point x="-53.0" y="-150.0" />
+      <point x="990.0000000000001" y="888.0" />
+      <point x="1038.0" y="888.0" />
+      <point x="1038.0" y="868.0" />
+      <point x="493.4251497005989" y="868.0" />
+      <point x="493.4251497005989" y="858.0" />
+      <point x="699.3750000000001" y="858.0" />
+      <point x="-80.5" y="249.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.CartService" target="com.igorkunicyn.minimarket.entities.Cart" relationship="TO_ONE">
       <point x="-67.0" y="-84.0" />
-      <point x="1769.0956325301206" y="1240.0" />
-      <point x="1553.875" y="1240.0" />
-      <point x="1553.875" y="1230.0" />
-      <point x="1665.5" y="1230.0" />
+      <point x="1668.300149700599" y="1292.0" />
+      <point x="1791.5" y="1292.0" />
+      <point x="1791.5" y="1272.0" />
+      <point x="1835.127245508982" y="1272.0" />
       <point x="-47.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.UserService" target="com.igorkunicyn.minimarket.repositories.RoleRepository" relationship="TO_ONE">
       <point x="-77.5" y="-139.0" />
-      <point x="297.5" y="2321.0" />
-      <point x="370.0000000000001" y="2321.0" />
-      <point x="370.0000000000001" y="2291.0" />
-      <point x="117.75" y="2291.0" />
-      <point x="117.75" y="2281.0" />
-      <point x="77.75" y="2281.0" />
+      <point x="315.25" y="1292.0" />
+      <point x="377.4251497005989" y="1292.0" />
+      <point x="377.4251497005989" y="1262.0" />
+      <point x="85.0" y="1262.0" />
+      <point x="85.0" y="1252.0" />
+      <point x="45.0" y="1252.0" />
       <point x="-45.0" y="28.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.Order" relationship="DEPENDENCY">
       <point x="59.0" y="238.0" />
-      <point x="1765.375" y="826.0" />
-      <point x="2057.625" y="826.0" />
-      <point x="2057.625" y="836.0" />
-      <point x="806.5489457831327" y="836.0" />
-      <point x="53.0" y="-150.0" />
+      <point x="1872.800149700599" y="848.0" />
+      <point x="1973.550149700599" y="848.0" />
+      <point x="1973.550149700599" y="878.0" />
+      <point x="1038.0" y="878.0" />
+      <point x="1038.0" y="888.0" />
+      <point x="990.0000000000001" y="888.0" />
+      <point x="-53.0" y="-150.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Order" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
-      <point x="53.0" y="-150.0" />
-      <point x="806.5489457831327" y="836.0" />
-      <point x="2057.625" y="836.0" />
-      <point x="2057.625" y="826.0" />
-      <point x="1765.375" y="826.0" />
+      <point x="-53.0" y="-150.0" />
+      <point x="990.0000000000001" y="888.0" />
+      <point x="1038.0" y="888.0" />
+      <point x="1038.0" y="878.0" />
+      <point x="1973.550149700599" y="878.0" />
+      <point x="1973.550149700599" y="848.0" />
+      <point x="1872.800149700599" y="848.0" />
       <point x="59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.RabbitService" target="com.igorkunicyn.minimarket.repositories.OrderRepository" relationship="TO_ONE">
-      <point x="-48.25" y="-62.5" />
-      <point x="662.3750000000001" y="1802.0" />
-      <point x="858.0376506024097" y="1802.0" />
-      <point x="858.0376506024097" y="1782.0" />
-      <point x="783.2876506024097" y="1782.0" />
+      <point x="-48.25" y="-51.0" />
+      <point x="829.5905688622755" y="1663.0" />
+      <point x="978.2178143712575" y="1663.0" />
+      <point x="978.2178143712575" y="1643.0" />
+      <point x="903.4678143712575" y="1643.0" />
       <point x="-79.75" y="39.0" />
+    </edge>
+    <edge source="com.igorkunicyn.minimarket.controllers.ProductController" target="com.igorkunicyn.minimarket.services.ProductService" relationship="DEPENDENCY">
+      <point x="82.0" y="-128.0" />
+      <point x="2510.2178143712576" y="1763.0" />
+      <point x="2433.2178143712576" y="1763.0" />
+      <point x="2433.2178143712576" y="1703.0" />
+      <point x="2222.625" y="1703.0" />
+      <point x="2222.625" y="1613.0" />
+      <point x="2283.125" y="1613.0" />
+      <point x="65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CartController" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
       <point x="-67.25" y="-95.0" />
-      <point x="1920.2206325301206" y="1962.0" />
-      <point x="1691.5956325301206" y="1962.0" />
-      <point x="1691.5956325301206" y="1822.0" />
-      <point x="1460.5956325301206" y="1822.0" />
-      <point x="1460.5956325301206" y="1812.0" />
-      <point x="1769.0956325301206" y="1812.0" />
+      <point x="1786.550149700599" y="1763.0" />
+      <point x="1589.925149700599" y="1763.0" />
+      <point x="1589.925149700599" y="1683.0" />
+      <point x="1456.4678143712576" y="1683.0" />
+      <point x="1456.4678143712576" y="1663.0" />
+      <point x="1668.300149700599" y="1663.0" />
       <point x="-67.0" y="84.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.controllers.ProductController" target="com.igorkunicyn.minimarket.services.ProductService" relationship="DEPENDENCY">
-      <point x="-82.0" y="-128.0" />
-      <point x="2422.8456325301204" y="1912.0" />
-      <point x="2325.0956325301204" y="1912.0" />
-      <point x="65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.ProductImage" target="com.igorkunicyn.minimarket.entities.Product" relationship="TO_ONE">
       <point x="-46.5" y="106.0" />
-      <point x="1649.875" y="277.0" />
-      <point x="1701.375" y="277.0" />
-      <point x="1701.375" y="307.0" />
-      <point x="1647.375" y="307.0" />
+      <point x="1757.300149700599" y="277.0" />
+      <point x="1808.800149700599" y="277.0" />
+      <point x="1808.800149700599" y="307.0" />
+      <point x="1754.800149700599" y="307.0" />
       <point x="-59.0" y="-238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.ProductImage" relationship="TO_MANY">
       <point x="-59.0" y="-238.0" />
-      <point x="1647.375" y="307.0" />
-      <point x="1701.375" y="307.0" />
-      <point x="1701.375" y="277.0" />
-      <point x="1649.875" y="277.0" />
+      <point x="1754.800149700599" y="307.0" />
+      <point x="1808.800149700599" y="307.0" />
+      <point x="1808.800149700599" y="277.0" />
+      <point x="1757.300149700599" y="277.0" />
       <point x="-46.5" y="106.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.ProductController" target="com.igorkunicyn.minimarket.services.CategoryService" relationship="TO_ONE">
-      <point x="82.0" y="-128.0" />
-      <point x="2586.8456325301204" y="1962.0" />
-      <point x="2504.7206325301204" y="1962.0" />
-      <point x="2504.7206325301204" y="1952.0" />
-      <point x="2714.519578313253" y="1952.0" />
-      <point x="2714.519578313253" y="1912.0" />
-      <point x="2766.769578313253" y="1912.0" />
-      <point x="57.25" y="84.0" />
+      <point x="-82.0" y="-128.0" />
+      <point x="2346.2178143712576" y="1763.0" />
+      <point x="2423.2178143712576" y="1763.0" />
+      <point x="2423.2178143712576" y="1743.0" />
+      <point x="2649.9176646706587" y="1743.0" />
+      <point x="2649.9176646706587" y="1723.0" />
+      <point x="2598.175149700599" y="1723.0" />
+      <point x="-57.25" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.ContentCartController" target="com.igorkunicyn.minimarket.services.CartService" relationship="DEPENDENCY">
       <point x="49.25" y="-51.0" />
-      <point x="1270.875" y="1892.0" />
-      <point x="1903.0956325301206" y="1892.0" />
+      <point x="1628.300149700599" y="1713.0" />
+      <point x="1802.300149700599" y="1713.0" />
       <point x="67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Category" target="com.igorkunicyn.minimarket.entities.Product" relationship="TO_MANY">
       <point x="-51.75" y="128.0" />
-      <point x="2241.9819277108436" y="277.0" />
-      <point x="1701.375" y="277.0" />
-      <point x="1701.375" y="307.0" />
-      <point x="1647.375" y="307.0" />
+      <point x="2283.675149700599" y="277.0" />
+      <point x="1808.800149700599" y="277.0" />
+      <point x="1808.800149700599" y="307.0" />
+      <point x="1754.800149700599" y="307.0" />
       <point x="-59.0" y="-238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.OrderService" target="com.igorkunicyn.minimarket.services.CartService" relationship="DEPENDENCY">
       <point x="69.0" y="-95.0" />
-      <point x="1034.125" y="1962.0" />
-      <point x="1127.7876506024097" y="1962.0" />
-      <point x="1127.7876506024097" y="1882.0" />
-      <point x="1903.0956325301206" y="1882.0" />
+      <point x="1201.3405688622756" y="1763.0" />
+      <point x="1247.9678143712576" y="1763.0" />
+      <point x="1247.9678143712576" y="1703.0" />
+      <point x="1802.300149700599" y="1703.0" />
       <point x="67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.RoleService" target="com.igorkunicyn.minimarket.repositories.RoleRepository" relationship="TO_ONE">
-      <point x="50.0" y="-51.0" />
-      <point x="150.0" y="2301.0" />
-      <point x="117.75" y="2301.0" />
-      <point x="117.75" y="2281.0" />
-      <point x="77.75" y="2281.0" />
+      <point x="-50.0" y="-51.0" />
+      <point x="67.75" y="1292.0" />
+      <point x="85.0" y="1292.0" />
+      <point x="85.0" y="1252.0" />
+      <point x="45.0" y="1252.0" />
       <point x="-45.0" y="28.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CategoryController" target="com.igorkunicyn.minimarket.services.CategoryService" relationship="TO_ONE">
-      <point x="62.75" y="-95.0" />
-      <point x="2911.2319277108436" y="1922.0" />
-      <point x="2714.519578313253" y="1922.0" />
-      <point x="2714.519578313253" y="1912.0" />
-      <point x="2766.769578313253" y="1912.0" />
-      <point x="57.25" y="84.0" />
+      <point x="-62.75" y="-95.0" />
+      <point x="2674.9678143712576" y="1733.0" />
+      <point x="2649.9176646706587" y="1733.0" />
+      <point x="2649.9176646706587" y="1723.0" />
+      <point x="2598.175149700599" y="1723.0" />
+      <point x="-57.25" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.ProductService" target="com.igorkunicyn.minimarket.repositories.CategoryRepository" relationship="DEPENDENCY">
       <point x="-65.5" y="-117.0" />
-      <point x="2194.0956325301204" y="1210.0" />
-      <point x="2732.644578313253" y="1210.0" />
-      <point x="2732.644578313253" y="1190.0" />
-      <point x="2691.894578313253" y="1190.0" />
+      <point x="2152.125" y="1292.0" />
+      <point x="2212.625" y="1292.0" />
+      <point x="2212.625" y="1262.0" />
+      <point x="2648.9655688622756" y="1262.0" />
+      <point x="2648.9655688622756" y="1242.0" />
+      <point x="2576.550149700599" y="1242.0" />
       <point x="-45.75" y="39.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.repositories.RoleRepository" target="com.igorkunicyn.minimarket.entities.Role" relationship="DEPENDENCY">
       <point x="0.0" y="-28.0" />
-      <point x="122.75" y="1240.0" />
-      <point x="176.9819277108436" y="1240.0" />
-      <point x="176.9819277108436" y="1190.0" />
-      <point x="271.1445783132531" y="1190.0" />
+      <point x="90.0" y="307.0" />
+      <point x="210.55014970059892" y="307.0" />
+      <point x="210.55014970059892" y="297.0" />
+      <point x="601.7500000000001" y="297.0" />
       <point x="-46.5" y="128.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.UserService" target="com.igorkunicyn.minimarket.entities.User" relationship="DEPENDENCY">
       <point x="77.5" y="-139.0" />
-      <point x="452.5" y="2321.0" />
-      <point x="380.0000000000001" y="2321.0" />
-      <point x="380.0000000000001" y="2261.0" />
-      <point x="304.625" y="2261.0" />
-      <point x="304.625" y="1962.0" />
-      <point x="360.125" y="1962.0" />
-      <point x="0.0" y="249.0" />
+      <point x="470.25" y="1292.0" />
+      <point x="397.75" y="1292.0" />
+      <point x="397.75" y="1282.0" />
+      <point x="493.4251497005989" y="1282.0" />
+      <point x="493.4251497005989" y="858.0" />
+      <point x="699.3750000000001" y="858.0" />
+      <point x="-80.5" y="249.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.repositories.UserRepository" target="com.igorkunicyn.minimarket.entities.User" relationship="DEPENDENCY">
       <point x="0.0" y="-61.0" />
-      <point x="415.625" y="1962.0" />
-      <point x="360.125" y="1962.0" />
-      <point x="0.0" y="249.0" />
+      <point x="382.4251497005989" y="888.0" />
+      <point x="493.4251497005989" y="888.0" />
+      <point x="493.4251497005989" y="858.0" />
+      <point x="699.3750000000001" y="858.0" />
+      <point x="-80.5" y="249.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CartController" target="com.igorkunicyn.minimarket.services.ProductService" relationship="TO_ONE">
       <point x="-67.25" y="-95.0" />
-      <point x="1920.2206325301206" y="1962.0" />
-      <point x="1691.5956325301206" y="1962.0" />
-      <point x="1691.5956325301206" y="1872.0" />
-      <point x="1702.0956325301206" y="1872.0" />
-      <point x="1702.0956325301206" y="1802.0" />
-      <point x="2194.0956325301204" y="1802.0" />
+      <point x="1786.550149700599" y="1763.0" />
+      <point x="1589.925149700599" y="1763.0" />
+      <point x="1589.925149700599" y="1723.0" />
+      <point x="2212.625" y="1723.0" />
+      <point x="2212.625" y="1613.0" />
+      <point x="2152.125" y="1613.0" />
       <point x="-65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.OrderService" target="com.igorkunicyn.minimarket.repositories.OrderRepository" relationship="TO_ONE">
       <point x="-69.0" y="-95.0" />
-      <point x="896.1250000000001" y="1962.0" />
-      <point x="822.5000000000001" y="1962.0" />
-      <point x="822.5000000000001" y="1812.0" />
-      <point x="858.0376506024097" y="1812.0" />
-      <point x="858.0376506024097" y="1782.0" />
-      <point x="783.2876506024097" y="1782.0" />
+      <point x="1063.3405688622756" y="1763.0" />
+      <point x="974.1751497005989" y="1763.0" />
+      <point x="974.1751497005989" y="1673.0" />
+      <point x="978.2178143712575" y="1673.0" />
+      <point x="978.2178143712575" y="1643.0" />
+      <point x="903.4678143712575" y="1643.0" />
       <point x="-79.75" y="39.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.RoleService" target="com.igorkunicyn.minimarket.entities.Role" relationship="DEPENDENCY">
-      <point x="-50.0" y="-51.0" />
-      <point x="50.0" y="2321.0" />
-      <point x="95.0" y="2321.0" />
-      <point x="95.0" y="2301.0" />
-      <point x="22.25" y="2301.0" />
-      <point x="22.25" y="1240.0" />
-      <point x="176.9819277108436" y="1240.0" />
-      <point x="176.9819277108436" y="1190.0" />
-      <point x="271.1445783132531" y="1190.0" />
+      <point x="50.0" y="-51.0" />
+      <point x="167.75" y="1292.0" />
+      <point x="122.75" y="1292.0" />
+      <point x="122.75" y="1282.0" />
+      <point x="190.5" y="1282.0" />
+      <point x="190.5" y="307.0" />
+      <point x="210.55014970059892" y="307.0" />
+      <point x="210.55014970059892" y="297.0" />
+      <point x="601.7500000000001" y="297.0" />
       <point x="-46.5" y="128.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.controllers.UserController" target="com.igorkunicyn.minimarket.services.UserService" relationship="TO_ONE">
-      <point x="-52.0" y="-62.0" />
-      <point x="61.0" y="2660.0" />
-      <point x="230.5" y="2660.0" />
-      <point x="230.5" y="2640.0" />
-      <point x="297.5" y="2640.0" />
-      <point x="-77.5" y="139.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.controllers.OrderController" target="com.igorkunicyn.minimarket.services.OrderService" relationship="DEPENDENCY">
-      <point x="-61.5" y="-51.0" />
-      <point x="793.8750000000001" y="2321.0" />
-      <point x="850.3750000000001" y="2321.0" />
-      <point x="850.3750000000001" y="2311.0" />
-      <point x="896.1250000000001" y="2311.0" />
-      <point x="-69.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CartController" target="com.igorkunicyn.minimarket.services.CartService" relationship="DEPENDENCY">
       <point x="67.25" y="-95.0" />
-      <point x="2054.7206325301204" y="1952.0" />
-      <point x="1853.269578313253" y="1952.0" />
-      <point x="1853.269578313253" y="1902.0" />
-      <point x="1903.0956325301206" y="1902.0" />
+      <point x="1921.050149700599" y="1763.0" />
+      <point x="2003.800149700599" y="1763.0" />
+      <point x="2003.800149700599" y="1663.0" />
+      <point x="1802.300149700599" y="1663.0" />
       <point x="67.0" y="84.0" />
     </edge>
+    <edge source="com.igorkunicyn.minimarket.controllers.OrderController" target="com.igorkunicyn.minimarket.services.OrderService" relationship="DEPENDENCY">
+      <point x="-61.5" y="-51.0" />
+      <point x="1165.050149700599" y="2080.0" />
+      <point x="986.5501497005989" y="2080.0" />
+      <point x="986.5501497005989" y="2060.0" />
+      <point x="1063.3405688622756" y="2060.0" />
+      <point x="-69.0" y="95.0" />
+    </edge>
+    <edge source="com.igorkunicyn.minimarket.controllers.UserController" target="com.igorkunicyn.minimarket.services.UserService" relationship="TO_ONE">
+      <point x="-52.0" y="-62.0" />
+      <point x="589.8001497005989" y="1763.0" />
+      <point x="252.127245508982" y="1763.0" />
+      <point x="252.127245508982" y="1743.0" />
+      <point x="315.25" y="1743.0" />
+      <point x="-77.5" y="139.0" />
+    </edge>
     <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.entities.Cart" relationship="DEPENDENCY">
-      <point x="52.5" y="-128.0" />
-      <point x="1780.4706325301206" y="1942.0" />
-      <point x="2091.1069277108436" y="1942.0" />
-      <point x="2091.1069277108436" y="1792.0" />
-      <point x="1999.8456325301206" y="1792.0" />
-      <point x="1999.8456325301206" y="1240.0" />
-      <point x="1879.8456325301206" y="1240.0" />
-      <point x="1879.8456325301206" y="1230.0" />
-      <point x="1759.5" y="1230.0" />
+      <point x="35.75" y="-83.5" />
+      <point x="2131.300149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1623.0" />
+      <point x="2010.5" y="1623.0" />
+      <point x="2010.5" y="1282.0" />
+      <point x="2005.5" y="1282.0" />
+      <point x="2005.5" y="1272.0" />
+      <point x="1929.127245508982" y="1272.0" />
       <point x="47.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.ProductController" target="com.igorkunicyn.minimarket.services.CategoryService" relationship="DEPENDENCY">
-      <point x="-82.0" y="-128.0" />
-      <point x="2422.8456325301204" y="1942.0" />
-      <point x="2704.519578313253" y="1942.0" />
-      <point x="2704.519578313253" y="1922.0" />
-      <point x="2652.269578313253" y="1922.0" />
-      <point x="-57.25" y="84.0" />
+      <point x="82.0" y="-128.0" />
+      <point x="2510.2178143712576" y="1763.0" />
+      <point x="2433.2178143712576" y="1763.0" />
+      <point x="2433.2178143712576" y="1753.0" />
+      <point x="2659.9176646706587" y="1753.0" />
+      <point x="2659.9176646706587" y="1713.0" />
+      <point x="2712.675149700599" y="1713.0" />
+      <point x="57.25" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.ProductService" target="com.igorkunicyn.minimarket.repositories.ProductRepository" relationship="TO_ONE">
       <point x="65.5" y="-117.0" />
-      <point x="2325.0956325301204" y="1240.0" />
-      <point x="2204.0956325301204" y="1240.0" />
-      <point x="2204.0956325301204" y="1200.0" />
-      <point x="2140.375" y="1200.0" />
+      <point x="2283.125" y="1292.0" />
+      <point x="2269.25" y="1292.0" />
+      <point x="2269.25" y="1252.0" />
+      <point x="2347.0" y="1252.0" />
       <point x="82.75" y="50.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.services.ProductService" relationship="DEPENDENCY">
-      <point x="52.5" y="-128.0" />
-      <point x="1780.4706325301206" y="1942.0" />
-      <point x="2091.1069277108436" y="1942.0" />
-      <point x="2091.1069277108436" y="1932.0" />
-      <point x="2325.0956325301204" y="1932.0" />
+      <point x="35.75" y="-83.5" />
+      <point x="2131.300149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1763.0" />
+      <point x="2106.050149700599" y="1753.0" />
+      <point x="2222.625" y="1753.0" />
+      <point x="2222.625" y="1613.0" />
+      <point x="2283.125" y="1613.0" />
       <point x="65.5" y="117.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CartController" target="com.igorkunicyn.minimarket.entities.Cart" relationship="TO_ONE">
       <point x="-67.25" y="-95.0" />
-      <point x="1920.2206325301206" y="1962.0" />
-      <point x="1691.5956325301206" y="1962.0" />
-      <point x="1691.5956325301206" y="1240.0" />
-      <point x="1553.875" y="1240.0" />
-      <point x="1553.875" y="1230.0" />
-      <point x="1665.5" y="1230.0" />
+      <point x="1786.550149700599" y="1763.0" />
+      <point x="1589.925149700599" y="1763.0" />
+      <point x="1589.925149700599" y="1292.0" />
+      <point x="1791.5" y="1292.0" />
+      <point x="1791.5" y="1272.0" />
+      <point x="1835.127245508982" y="1272.0" />
       <point x="-47.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.User" target="com.igorkunicyn.minimarket.entities.Order" relationship="TO_MANY">
-      <point x="-80.5" y="-249.0" />
-      <point x="279.625" y="1240.0" />
-      <point x="358.0489457831327" y="1240.0" />
-      <point x="358.0489457831327" y="1220.0" />
-      <point x="568.5376506024097" y="1220.0" />
-      <point x="568.5376506024097" y="1200.0" />
-      <point x="700.5489457831327" y="1200.0" />
-      <point x="-53.0" y="150.0" />
+      <point x="80.5" y="249.0" />
+      <point x="860.3750000000001" y="858.0" />
+      <point x="1048.0" y="858.0" />
+      <point x="1048.0" y="888.0" />
+      <point x="1096.0" y="888.0" />
+      <point x="53.0" y="-150.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.RabbitController" target="com.igorkunicyn.minimarket.services.OrderService" relationship="TO_ONE">
-      <point x="46.0" y="-73.5" />
-      <point x="1136.375" y="2311.0" />
-      <point x="1095.375" y="2311.0" />
-      <point x="1095.375" y="2301.0" />
-      <point x="1034.125" y="2301.0" />
+      <point x="46.0" y="-62.0" />
+      <point x="1037.550149700599" y="2070.0" />
+      <point x="1231.550149700599" y="2070.0" />
+      <point x="1231.550149700599" y="2060.0" />
+      <point x="1201.3405688622756" y="2060.0" />
       <point x="69.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.AdminController" target="com.igorkunicyn.minimarket.services.UserService" relationship="DEPENDENCY">
       <point x="52.5" y="-73.0" />
-      <point x="690.5000000000001" y="2650.0" />
-      <point x="519.7500000000001" y="2650.0" />
-      <point x="519.7500000000001" y="2640.0" />
-      <point x="452.5" y="2640.0" />
+      <point x="465.3001497005989" y="1753.0" />
+      <point x="534.5905688622755" y="1753.0" />
+      <point x="534.5905688622755" y="1743.0" />
+      <point x="470.25" y="1743.0" />
       <point x="77.5" y="139.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
-      <point x="-52.5" y="-128.0" />
-      <point x="1675.4706325301206" y="1962.0" />
-      <point x="1370.9239457831327" y="1962.0" />
-      <point x="1370.9239457831327" y="1852.0" />
-      <point x="1460.5956325301206" y="1852.0" />
-      <point x="1460.5956325301206" y="1812.0" />
-      <point x="1769.0956325301206" y="1812.0" />
-      <point x="-67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.CategoryService" target="com.igorkunicyn.minimarket.repositories.CategoryRepository" relationship="DEPENDENCY">
       <point x="-57.25" y="-84.0" />
-      <point x="2652.269578313253" y="1240.0" />
-      <point x="2704.519578313253" y="1240.0" />
-      <point x="2704.519578313253" y="1220.0" />
-      <point x="2732.644578313253" y="1220.0" />
-      <point x="2732.644578313253" y="1190.0" />
-      <point x="2691.894578313253" y="1190.0" />
+      <point x="2598.175149700599" y="1292.0" />
+      <point x="2649.9176646706587" y="1292.0" />
+      <point x="2648.9655688622756" y="1242.0" />
+      <point x="2576.550149700599" y="1242.0" />
       <point x="-45.75" y="39.0" />
     </edge>
+    <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
+      <point x="-35.75" y="-83.5" />
+      <point x="2059.800149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1673.0" />
+      <point x="1456.4678143712576" y="1673.0" />
+      <point x="1456.4678143712576" y="1663.0" />
+      <point x="1668.300149700599" y="1663.0" />
+      <point x="-67.0" y="84.0" />
+    </edge>
     <edge source="com.igorkunicyn.minimarket.enums.AddProduct" target="com.igorkunicyn.minimarket.enums.AddProduct" relationship="DEPENDENCY">
-      <point x="0.0" y="95.5" />
-      <point x="959.5" y="3082.0" />
-      <point x="841.0" y="3082.0" />
-      <point x="841.0" y="2966.5" />
+      <point x="0.0" y="62.0" />
+      <point x="1271.5" y="2413.0" />
+      <point x="1153.0" y="2413.0" />
+      <point x="1153.0" y="2331.0" />
       <point x="-98.5" y="-0.0" />
+    </edge>
+    <edge source="com.igorkunicyn.minimarket.entities.User" target="com.igorkunicyn.minimarket.entities.Role" relationship="TO_MANY">
+      <point x="80.5" y="-249.0" />
+      <point x="860.3750000000001" y="297.0" />
+      <point x="694.7500000000001" y="297.0" />
+      <point x="46.5" y="128.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Role" target="com.igorkunicyn.minimarket.entities.User" relationship="TO_MANY">
       <point x="46.5" y="128.0" />
-      <point x="364.1445783132531" y="1210.0" />
-      <point x="358.0489457831327" y="1210.0" />
-      <point x="358.0489457831327" y="1240.0" />
-      <point x="279.625" y="1240.0" />
-      <point x="-80.5" y="-249.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.entities.User" target="com.igorkunicyn.minimarket.entities.Role" relationship="TO_MANY">
-      <point x="-80.5" y="-249.0" />
-      <point x="279.625" y="1240.0" />
-      <point x="358.0489457831327" y="1240.0" />
-      <point x="358.0489457831327" y="1210.0" />
-      <point x="364.1445783132531" y="1210.0" />
-      <point x="46.5" y="128.0" />
+      <point x="694.7500000000001" y="297.0" />
+      <point x="860.3750000000001" y="297.0" />
+      <point x="80.5" y="-249.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.repositories.ProductRepository" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
       <point x="0.0" y="-50.0" />
-      <point x="2057.625" y="826.0" />
-      <point x="1765.375" y="826.0" />
+      <point x="2264.25" y="888.0" />
+      <point x="1973.550149700599" y="888.0" />
+      <point x="1973.550149700599" y="848.0" />
+      <point x="1872.800149700599" y="848.0" />
       <point x="59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.repositories.OrderRepository" target="com.igorkunicyn.minimarket.entities.Order" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="863.0376506024097" y="1220.0" />
-      <point x="806.5489457831327" y="1220.0" />
+      <point x="1.1368683772161603E-13" y="-39.0" />
+      <point x="983.2178143712576" y="1292.0" />
+      <point x="1128.0" y="1292.0" />
+      <point x="1128.0" y="1282.0" />
+      <point x="1096.0" y="1282.0" />
       <point x="53.0" y="150.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.UserService" target="com.igorkunicyn.minimarket.repositories.RoleRepository" relationship="DEPENDENCY">
       <point x="77.5" y="-139.0" />
-      <point x="452.5" y="2321.0" />
-      <point x="380.0000000000001" y="2321.0" />
-      <point x="380.0000000000001" y="2271.0" />
-      <point x="223.75" y="2271.0" />
-      <point x="223.75" y="2261.0" />
-      <point x="167.75" y="2261.0" />
+      <point x="470.25" y="1292.0" />
+      <point x="397.75" y="1292.0" />
+      <point x="397.75" y="1242.0" />
+      <point x="95.0" y="1242.0" />
+      <point x="95.0" y="1232.0" />
+      <point x="135.0" y="1232.0" />
       <point x="45.0" y="28.0" />
     </edge>
     <edge source="MavenWrapperDownloader" target="MavenWrapperDownloader" relationship="DEPENDENCY">
-      <point x="0.0" y="106.0" />
-      <point x="653.0" y="3103.0" />
-      <point x="490.0" y="3103.0" />
-      <point x="490.0" y="2977.0" />
-      <point x="-143.0" y="-0.0" />
+      <point x="0.0" y="50.5" />
+      <point x="1564.0" y="2390.0" />
+      <point x="1415.0" y="2390.0" />
+      <point x="1415.0" y="2319.5" />
+      <point x="-129.0" y="-0.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.RabbitService" target="com.igorkunicyn.minimarket.repositories.OrderRepository" relationship="DEPENDENCY">
-      <point x="48.25" y="-62.5" />
-      <point x="758.8750000000001" y="1822.0" />
-      <point x="877.6250000000001" y="1822.0" />
-      <point x="877.6250000000001" y="1802.0" />
-      <point x="942.7876506024097" y="1802.0" />
-      <point x="79.75" y="39.0" />
+      <point x="48.25" y="-51.0" />
+      <point x="926.0905688622755" y="1683.0" />
+      <point x="1029.300149700599" y="1683.0" />
+      <point x="1029.300149700599" y="1663.0" />
+      <point x="1062.9678143712576" y="1663.0" />
+      <point x="79.75000000000011" y="39.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.CartService" target="com.igorkunicyn.minimarket.entities.Cart" relationship="DEPENDENCY">
       <point x="67.0" y="-84.0" />
-      <point x="1903.0956325301206" y="1240.0" />
-      <point x="1879.8456325301206" y="1240.0" />
-      <point x="1879.8456325301206" y="1230.0" />
-      <point x="1759.5" y="1230.0" />
+      <point x="1802.300149700599" y="1282.0" />
+      <point x="2005.5" y="1282.0" />
+      <point x="2005.5" y="1272.0" />
+      <point x="1929.127245508982" y="1272.0" />
       <point x="47.0" y="95.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.repositories.CategoryRepository" target="com.igorkunicyn.minimarket.entities.Category" relationship="DEPENDENCY">
       <point x="0.0" y="-39.0" />
-      <point x="2737.644578313253" y="307.0" />
-      <point x="2686.644578313253" y="307.0" />
-      <point x="2686.644578313253" y="287.0" />
-      <point x="2345.4819277108436" y="287.0" />
+      <point x="2622.300149700599" y="307.0" />
+      <point x="2664.2155688622756" y="307.0" />
+      <point x="2664.2155688622756" y="287.0" />
+      <point x="2387.175149700599" y="287.0" />
       <point x="51.75" y="128.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.CategoryService" target="com.igorkunicyn.minimarket.repositories.CategoryRepository" relationship="TO_ONE">
       <point x="57.25" y="-84.0" />
-      <point x="2766.769578313253" y="1220.0" />
-      <point x="2742.644578313253" y="1220.0" />
-      <point x="2742.644578313253" y="1210.0" />
-      <point x="2783.394578313253" y="1210.0" />
+      <point x="2712.675149700599" y="1262.0" />
+      <point x="2658.9655688622756" y="1262.0" />
+      <point x="2658.9655688622756" y="1252.0" />
+      <point x="2668.050149700599" y="1252.0" />
       <point x="45.75" y="39.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartUnitTests" target="com.igorkunicyn.minimarket.entities.Product" relationship="TO_MANY">
-      <point x="-52.5" y="-128.0" />
-      <point x="1675.4706325301206" y="1962.0" />
-      <point x="1370.9239457831327" y="1962.0" />
-      <point x="1370.9239457831327" y="846.0" />
-      <point x="1421.0" y="846.0" />
-      <point x="1421.0" y="826.0" />
-      <point x="1647.375" y="826.0" />
+      <point x="-35.75" y="-83.5" />
+      <point x="2059.800149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1753.0" />
+      <point x="1993.300149700599" y="1633.0" />
+      <point x="2044.75" y="1633.0" />
+      <point x="2044.75" y="858.0" />
+      <point x="1732.550149700599" y="858.0" />
+      <point x="1732.550149700599" y="848.0" />
+      <point x="1754.800149700599" y="848.0" />
       <point x="-59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.services.UserService" target="com.igorkunicyn.minimarket.repositories.UserRepository" relationship="DEPENDENCY">
       <point x="77.5" y="-139.0" />
-      <point x="452.5" y="2321.0" />
-      <point x="380.0000000000001" y="2321.0" />
-      <point x="380.0000000000001" y="2261.0" />
-      <point x="465.875" y="2261.0" />
+      <point x="470.25" y="1292.0" />
+      <point x="397.75" y="1292.0" />
+      <point x="397.75" y="1282.0" />
+      <point x="432.6751497005989" y="1282.0" />
       <point x="50.25" y="61.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.CartMockTest" target="com.igorkunicyn.minimarket.services.CartService" relationship="TO_ONE">
-      <point x="-50.0" y="-84.0" />
-      <point x="1390.125" y="1842.0" />
-      <point x="1460.5956325301206" y="1842.0" />
-      <point x="1460.5956325301206" y="1812.0" />
-      <point x="1769.0956325301206" y="1812.0" />
+      <point x="-35.5" y="-50.5" />
+      <point x="1354.050149700599" y="1763.0" />
+      <point x="1456.4678143712576" y="1763.0" />
+      <point x="1456.4678143712576" y="1663.0" />
+      <point x="1668.300149700599" y="1663.0" />
       <point x="-67.0" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.RegistrationController" target="com.igorkunicyn.minimarket.services.UserService" relationship="DEPENDENCY">
       <point x="69.0" y="-62.0" />
-      <point x="444.0" y="2650.0" />
-      <point x="519.7500000000001" y="2650.0" />
-      <point x="519.7500000000001" y="2640.0" />
-      <point x="452.5" y="2640.0" />
+      <point x="218.80014970059892" y="1753.0" />
+      <point x="534.5905688622755" y="1753.0" />
+      <point x="534.5905688622755" y="1743.0" />
+      <point x="470.25" y="1743.0" />
       <point x="77.5" y="139.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Order" target="com.igorkunicyn.minimarket.entities.Product" relationship="TO_MANY">
-      <point x="-53.0" y="-150.0" />
-      <point x="700.5489457831327" y="846.0" />
-      <point x="1421.0" y="846.0" />
-      <point x="1421.0" y="826.0" />
-      <point x="1647.375" y="826.0" />
+      <point x="53.0" y="-150.0" />
+      <point x="1096.0" y="888.0" />
+      <point x="1048.0" y="888.0" />
+      <point x="1048.0" y="868.0" />
+      <point x="1732.550149700599" y="868.0" />
+      <point x="1732.550149700599" y="848.0" />
+      <point x="1754.800149700599" y="848.0" />
       <point x="-59.0" y="238.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.Order" relationship="TO_MANY">
       <point x="-59.0" y="238.0" />
-      <point x="1647.375" y="826.0" />
-      <point x="1421.0" y="826.0" />
-      <point x="1421.0" y="846.0" />
-      <point x="700.5489457831327" y="846.0" />
-      <point x="-53.0" y="-150.0" />
+      <point x="1754.800149700599" y="848.0" />
+      <point x="1732.550149700599" y="848.0" />
+      <point x="1732.550149700599" y="868.0" />
+      <point x="1048.0" y="868.0" />
+      <point x="1048.0" y="888.0" />
+      <point x="1096.0" y="888.0" />
+      <point x="53.0" y="-150.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.UserController" target="com.igorkunicyn.minimarket.services.UserService" relationship="DEPENDENCY">
       <point x="52.0" y="-62.0" />
-      <point x="165.0" y="2650.0" />
-      <point x="519.7500000000001" y="2650.0" />
-      <point x="519.7500000000001" y="2640.0" />
-      <point x="452.5" y="2640.0" />
+      <point x="693.8001497005989" y="1753.0" />
+      <point x="534.5905688622755" y="1753.0" />
+      <point x="534.5905688622755" y="1743.0" />
+      <point x="470.25" y="1743.0" />
       <point x="77.5" y="139.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.controllers.CategoryController" target="com.igorkunicyn.minimarket.services.CategoryService" relationship="DEPENDENCY">
-      <point x="-62.75" y="-95.0" />
-      <point x="2785.7319277108436" y="1932.0" />
-      <point x="2704.519578313253" y="1932.0" />
-      <point x="2704.519578313253" y="1922.0" />
-      <point x="2652.269578313253" y="1922.0" />
-      <point x="-57.25" y="84.0" />
-    </edge>
-    <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.Category" relationship="DEPENDENCY">
-      <point x="59.0" y="-238.0" />
-      <point x="1765.375" y="307.0" />
-      <point x="1711.375" y="307.0" />
-      <point x="1711.375" y="297.0" />
-      <point x="2686.644578313253" y="297.0" />
-      <point x="2686.644578313253" y="287.0" />
-      <point x="2345.4819277108436" y="287.0" />
-      <point x="51.75" y="128.0" />
+      <point x="62.75" y="-95.0" />
+      <point x="2800.4678143712576" y="1723.0" />
+      <point x="2659.9176646706587" y="1723.0" />
+      <point x="2659.9176646706587" y="1713.0" />
+      <point x="2712.675149700599" y="1713.0" />
+      <point x="57.25" y="84.0" />
     </edge>
     <edge source="com.igorkunicyn.minimarket.entities.Category" target="com.igorkunicyn.minimarket.entities.Product" relationship="DEPENDENCY">
       <point x="51.75" y="128.0" />
-      <point x="2345.4819277108436" y="287.0" />
-      <point x="2686.644578313253" y="287.0" />
-      <point x="2686.644578313253" y="297.0" />
-      <point x="1711.375" y="297.0" />
-      <point x="1711.375" y="307.0" />
-      <point x="1765.375" y="307.0" />
+      <point x="2387.175149700599" y="287.0" />
+      <point x="2664.2155688622756" y="287.0" />
+      <point x="2664.2155688622756" y="297.0" />
+      <point x="1818.800149700599" y="297.0" />
+      <point x="1818.800149700599" y="307.0" />
+      <point x="1872.800149700599" y="307.0" />
       <point x="59.0" y="-238.0" />
     </edge>
+    <edge source="com.igorkunicyn.minimarket.entities.Product" target="com.igorkunicyn.minimarket.entities.Category" relationship="DEPENDENCY">
+      <point x="59.0" y="-238.0" />
+      <point x="1872.800149700599" y="307.0" />
+      <point x="1818.800149700599" y="307.0" />
+      <point x="1818.800149700599" y="297.0" />
+      <point x="2664.2155688622756" y="297.0" />
+      <point x="2664.2155688622756" y="287.0" />
+      <point x="2387.175149700599" y="287.0" />
+      <point x="51.75" y="128.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.4795675336884989" showDependencies="true" x="1615.5" y="587.4132523034699" />
+  <settings layout="Hierarchic" zoom="0.42500000000000004" showDependencies="true" x="1431.9999999999998" y="1926.8823529411764" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
-    <Category>Fields</Category>
     <Category>Inner Classes</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
